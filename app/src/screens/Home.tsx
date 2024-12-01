@@ -1,6 +1,4 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import '../styles/home.scss'
 import Homies from '../components/Homies'
 
