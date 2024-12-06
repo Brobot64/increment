@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import '../styles/services.scss'
 import Image from 'next/image'
-import { FcCancel } from 'react-icons/fc'
 import { GrClose } from 'react-icons/gr'
 
 interface User {
