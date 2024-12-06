@@ -38,7 +38,7 @@ const Services = () => {
   const [selectedUser, setSelectedUser] = useState<User | null>(null); // State for selected user
   const [isPopupVisible, setPopupVisible] = useState(false); // State for popup visibility
 
-  const handlePersonaClick = (user: any) => {
+  const handlePersonaClick = (user: User) => {
     setSelectedUser(user);
     setPopupVisible(true); // Show popup
   };
