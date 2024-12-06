@@ -16,7 +16,7 @@ const Header = () => {
 
   const navLinks = [
     { href: '/', label: 'home' },
-    { href: '/capabilities', label: 'our capabilities' },
+    { href: '/services', label: 'our capabilities' },
     { href: '/about-us', label: 'about us' },
     { href: '/contact', label: 'contact us' },
   ];

@@ -1,8 +1,8 @@
-import AboutUs from "../src/screens/AboutUs";
+import Service from "../src/screens/Service";
 
 
 export default function Abouties() {
   return (
-    <AboutUs/>
+    <Service/>
   );
 }

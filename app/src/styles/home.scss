@@ -50,6 +50,28 @@ main {
             display: none;
         }
     }
+
+    nav.smaller {
+        ul {
+            li {
+                a {
+                    padding: 8px 16px;
+                    @apply text-[16px] leading-[19.39px] font-[600] capitalize transition;
+                    border-bottom: 3px solid transparent;
+                }
+                a.active {
+                    border-bottom: 3px solid #4F1012;
+                }
+            }
+            
+            li:hover {
+                transform:  translateX(3px);
+                a {
+                    border-bottom: 3px solid #4F1012;
+                }
+            }
+        }
+    }
 }
 
 section.main {
@@ -576,21 +598,51 @@ footer {
             display: block !important;
             position: absolute;
             width: 100 dvw;
+
+            li {
+                a {
+                    padding: 8px 16px;
+                    @apply text-[16px] leading-[19.39px] font-[600] capitalize transition;
+                    border-bottom: 3px solid transparent;
+                }
+                a.active {
+                    border-bottom: 3px solid #4F1012;
+                }
+            }
+            
+            li:hover {
+                transform:  translateX(3px);
+                a {
+                    border-bottom: 3px solid #4F1012;
+                }
+            }
         }
     }
 
     ul.train {
-        @apply flex flex-col;
+        @apply flex flex-col gap-2;
         li {
             @apply w-full h-fit;
             a {
-                @apply capitalize text-[14px] leading-[17.37px] py-[8px] px-[12px];
+                @apply capitalize text-[14px] leading-[17.37px] py-[8px] px-[12px] ml-[10px];
                 transition: .3s ease-in;
             }
+            
+            a.active {
+                border-bottom: 3px solid #4F1012;
+            }
+
             &:hover {
                 a {
                     transform: translate(19px, 0px);
                 }
+            }
+        }
+
+        li:hover {
+            transform:  translateX(3px);
+            a {
+                border-bottom: 3px solid #4F1012;
             }
         }
     }
@@ -603,6 +655,10 @@ footer {
           a {
             @apply capitalize text-[14px] leading-[17.37px] py-[8px] px-[12px];
             @apply transition-transform duration-300 ease-in; // Ensure smooth transition for transform
+          }
+            
+          a.active {
+              border-bottom: 3px solid #4F1012;
           }
       
           a:hover {

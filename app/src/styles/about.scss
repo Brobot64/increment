@@ -135,6 +135,23 @@ section.outreach {
 
 
 @media (max-width: 768px) {
+    section.top-main {
+        @apply px-[20px];
+        .texts {
+            @apply pr-0;
+            h1 {
+                @apply text-[40px] leading-[50.96px];
+            }  
+            
+            p {
+                @apply text-[16px] leading-[21.09px];
+            }
+        }
+        .image {
+            @apply ml-[-200px];
+            min-width: 100%;
+        }
+    }
     section.actionables {
         @apply px-[20px];
         .ching {
@@ -150,6 +167,9 @@ section.outreach {
                 @apply grid-cols-1 gap-7;
                 div {
                     @apply col-start-1 col-end-3;
+                    h4 {
+                        @apply text-[24px] leading-[32.78px] mt-[27px] mb-3;
+                    }
                 }
             }
         }
