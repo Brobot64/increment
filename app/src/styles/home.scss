@@ -546,6 +546,12 @@ footer {
     }
 }
 
+main.contact {
+    .text {
+        @apply w-full text-center flex justify-center items-center;
+    }
+}
+
 
 
 

@@ -181,7 +181,7 @@ const Homies = () => {
                         <div className="little-app">
                            <div className="all-lapp">
                             <Image
-                                src="/assets/binocular.png"
+                                src="/assets/binoc.svg"
                                 alt="binocular"
                                 width={180}
                                 height={38}
@@ -194,7 +194,7 @@ const Homies = () => {
                            </div>
                            <div className="all-lapp crave"style={{ flexDirection: 'row-reverse' }}> 
                             <Image
-                                src="/assets/board.png"
+                                src="/assets/board.svg"
                                 alt="home"
                                 width={180}
                                 height={38}
@@ -207,7 +207,7 @@ const Homies = () => {
                            </div>
                            <div className="all-lapp">
                             <Image
-                                src="/assets/parachute.png"
+                                src="/assets/parachute.svg"
                                 alt="home"
                                 width={180}
                                 height={38}

@@ -145,6 +145,45 @@ section.sumPop {
 }
 
 
+main.contact {
+    // display: none;
+    .text {
+        @apply w-full text-center flex justify-center items-center mb-[40px];
+        .tramps {
+            h6 {
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 58.18px;
+                text-align: center;
+                text-transform: uppercase;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                margin-bottom: 24px;
+            }
+            p {
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 38.78px;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+            }
+        }
+    }
+
+    .map {
+        @apply h-[500px] md:h-[650px] mt-[50px] mx-0 md:mx-auto overflow-x-hidden w-[90dvw] md:w-[100dvw];
+        max-width: 1090px;
+        min-height: 500px;
+        border-radius: 20px;
+        overflow: hidden;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
 
 
 
@@ -230,6 +269,18 @@ section.sumPop {
         }
         img {
             @apply hidden;
+        }
+    }
+
+    main.contact {
+        .text {
+            .tramps {
+                margin-top: 30px;
+                h6, p {
+                    font-size: 24px;
+                    line-height: 29.09px;
+                }
+            }
         }
     }
 }
