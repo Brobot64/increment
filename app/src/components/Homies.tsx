@@ -43,7 +43,56 @@ const Homies = () => {
                 contact us today!
             </button>
 
-            <div className="differences">
+            <div className="about-us-pre">
+                <div className="bios">
+                    <h4>WHO WE ARE</h4>
+                    <p>
+                    We are a team of senior Commercial
+                    professionals with extensive practical
+                    knowledge and experience working
+                    with industry leading global multinationals. We have been there,
+                    we have done it, and we bring a
+                    practical, hands-on approach to every
+                    engagement.
+                        <br /><br />
+                    We are executives who team with
+                    other professionals to provide both design and executional capabilities to
+                    a range of businesses, from start ups through to mid-sized and large
+                    corporations.
+                    We combine deep domain knowledge
+                    in commercial operations with on-the ground
+                    multi-industry experience from
+                    various markets in Africa to help your
+                    organisation find pathways to unlock
+                    business growth.
+                    </p>
+                </div>
+                <div className="bios">
+                    <h4>WHAT WE DO</h4>
+                    <p>
+                        Our Commercial Excellence solutions practice helps businesses embrace the complexity in the marketplace and unlock profitable growth through the development and execution of an integrated operating model that promotes top-line organic growth. <br /> <br />
+
+                        Our model ensures business strategy is linked with market outcomes by helping to uncover growth inhibitors in your commercial operations and working to craft and deploy proven commercial strategies and tactics to reignite and accelerate growth for your business.
+
+                    </p>
+                </div>
+                <div className="bios">
+                    <h4>HoW WE DO IT</h4>
+                    <p>
+                        We do this by leveraging technology to upgrade marketing, sales, service, and supply chain capabilities to drive efficiencies and revenue or margin improvements. We make this happen via the deployment of superior
+                        commercial growth strategies and tactics, improved analytics and better than market capability development of your commercial function. 
+                        <br /><br />
+                        Our solutions provide proven and actionable strategies and tactics that
+                        help unlock growth in your business.
+                        Our customer-centric approach takes a
+                        holistic view of the commercial issues and opportunities businesses face and we apply these insights in the design
+                        of remedial solutions to unlock
+                        growth.
+                    </p>
+                </div>
+            </div>
+
+            <div className="differences mb-[50px]">
                 <h3>Our Points of Difference</h3>
 
                 <div className="uniqueness">
@@ -109,55 +158,6 @@ const Homies = () => {
                         </div>
                         <p>Growth Driven</p>
                     </div>
-                </div>
-            </div>
-
-            <div className="about-us-pre">
-                <div className="bios">
-                    <h4>HoW WE DO IT</h4>
-                    <p>
-                        We do this by leveraging technology to upgrade marketing, sales, service, and supply chain capabilities to drive efficiencies and revenue or margin improvements. We make this happen via the deployment of superior
-                        commercial growth strategies and tactics, improved analytics and better than market capability development of your commercial function. 
-                        <br /><br />
-                        Our solutions provide proven and actionable strategies and tactics that
-                        help unlock growth in your business.
-                        Our customer-centric approach takes a
-                        holistic view of the commercial issues and opportunities businesses face and we apply these insights in the design
-                        of remedial solutions to unlock
-                        growth.
-                    </p>
-                </div>
-                <div className="bios">
-                    <h4>WHAT WE DO</h4>
-                    <p>
-                        Our Commercial Excellence solutions practice helps businesses embrace the complexity in the marketplace and unlock profitable growth through the development and execution of an integrated operating model that promotes top-line organic growth. <br /> <br />
-
-                        Our model ensures business strategy is linked with market outcomes by helping to uncover growth inhibitors in your commercial operations and working to craft and deploy proven commercial strategies and tactics to reignite and accelerate growth for your business.
-
-                    </p>
-                </div>
-                <div className="bios">
-                    <h4>WHO WE ARE</h4>
-                    <p>
-                    We are a team of senior Commercial
-                    professionals with extensive practical
-                    knowledge and experience working
-                    with industry leading global multinationals. We have been there,
-                    we have done it, and we bring a
-                    practical, hands-on approach to every
-                    engagement.
-                        <br /><br />
-                    We are executives who team with
-                    other professionals to provide both design and executional capabilities to
-                    a range of businesses, from start ups through to mid-sized and large
-                    corporations.
-                    We combine deep domain knowledge
-                    in commercial operations with on-the ground
-                    multi-industry experience from
-                    various markets in Africa to help your
-                    organisation find pathways to unlock
-                    business growth.
-                    </p>
                 </div>
             </div>
         </section>

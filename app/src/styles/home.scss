@@ -18,7 +18,7 @@ main {
     @apply flex justify-between p-[15px] items-center px-[45px]; 
 
     img {
-        width: 124.85px;
+        width: 170.85px;
         height: auto;
     }
 
@@ -128,7 +128,7 @@ section.main {
 
     .differences {
         // display: none;
-        @apply px-[45px] mt-[70px] flex flex-col gap-[45px];
+        @apply px-[45px] mt-[70px] flex flex-col gap-[45px] mb-[50px];
         h3 {
             @apply text-[40px] leading-[49.6px] font-[700];
            font-family: "Libre Baskerville", serif; 
