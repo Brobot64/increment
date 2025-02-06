@@ -30,7 +30,7 @@ const Services = () => {
     },
     {
       name: 'Femi Kupoluyi',
-      image: '/assets/oreokj.png',
+      image: '/assets/femskul.jpg',
       bio: "A Sales and Distribution professional and consultant with over 30 years of experience, drives trusted revenue growth through transformative strategies in sales, distribution and marketing. As Sales and Distribution Director at Airtel Nigeria, Director of SmartCash PSB, and Director of Sales Operation and General Management at Coca-Cola Nigeria, Femi\'s expertise spans FMCG, telecommunications, digital banking, and payment service banks across Nigeria, South Africa, Egypt, and 24 other African countries. He develops multi-channel strategies that optimize market penetration and profitability. His strong background in IT and software development, including roles as Head of Information Systemsat Coca-Cola, complements his ability to drive digital transformation. A proven leader and project manager, Femi effectively manages diverse teams and projects. With an MBA and B.Sc in Electrical and Electronic Engineering, Femi leverages his extensive experience to navigate complex business challenges and deliver sustainable results for organizations seeking growth in the digital age."
     },
   ];
@@ -105,7 +105,7 @@ const Services = () => {
             </div>
         </section>
 
-        <section className="leadership">
+        <section className="leadership" id='leadership'>
             <h3>our leadership team</h3>
             <div className="team-gala">
                 {leadershipData.map((user) => (

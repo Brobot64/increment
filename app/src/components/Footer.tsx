@@ -15,17 +15,17 @@ const Footer = () => {
                 />
                 <div className="flex">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Our Capabilities</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/services">Our Capabilities</a></li>
+                        <li><a href="/about-us">About Us</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
                     </ul>
                     <ul>
-                        <li><a href="">3D&#39;s Approach</a></li>
-                        <li><a href="">Our Solution</a></li>
-                        <li><a href="">Commercial 
+                        <li><a href="/#approach">3D&#39;s Approach</a></li>
+                        <li><a href="/services/#outreach">Our Solution</a></li>
+                        <li><a href="/services/#capabilities">Commercial 
                         Capability Practice</a></li>
-                        <li><a href="">Our Leadership
+                        <li><a href="/about-us/#leadership">Our Leadership
                         Team</a></li>
                     </ul>
                 </div>

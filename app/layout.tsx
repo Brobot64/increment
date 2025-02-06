@@ -6,6 +6,9 @@ import Footer from "./src/components/Footer";
 export const metadata: Metadata = {
   title: "Increment",
   description: "Next Level Increment",
+  icons: {
+    icon: "/logo.svg", // or "/logo.svg" for SVG
+  },
 };
 
 export default function RootLayout({

@@ -177,7 +177,7 @@ const Abouts = () => {
                 </div>
             </div>
 
-            <div className="our-clients twomap">
+            <div className="our-clients twomap" id='capabilities'>
                 <h3>Commercial Capabilities Practice</h3>
                 <div className="clients-points">
                     <div className='darck'>
@@ -211,7 +211,7 @@ const Abouts = () => {
             </div>
         </section>
 
-        <section className="outreach">
+        <section className="outreach" id='outreach'>
             <div className="closure">
                 <div>
                     <h5>Trade Audits/Trade Intelligence</h5>

@@ -162,7 +162,7 @@ const Homies = () => {
             </div>
         </section>
 
-        <section className="middies">
+        <section className="middies" id='approach'>
             <div className="limage-blur">
                 <p>We do this by working with clients to improve and upgrade <br />
                 Commercial Excellence capabilities within their organisations <br /> 
