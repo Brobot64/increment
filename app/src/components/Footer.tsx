@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -15,18 +16,18 @@ const Footer = () => {
                 />
                 <div className="flex">
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/services">Our Capabilities</a></li>
-                        <li><a href="/about-us">About Us</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/services">Our Capabilities</Link></li>
+                        <li><Link href="/about-us">About Us</Link></li>
+                        <li><Link href="/contact">Contact Us</Link></li>
                     </ul>
                     <ul>
-                        <li><a href="/#approach">3D&#39;s Approach</a></li>
-                        <li><a href="/services/#outreach">Our Solution</a></li>
-                        <li><a href="/services/#capabilities">Commercial 
-                        Capability Practice</a></li>
-                        <li><a href="/about-us/#leadership">Our Leadership
-                        Team</a></li>
+                        <li><Link href="/#approach">3D&#39;s Approach</Link></li>
+                        <li><Link href="/services/#outreach">Our Solution</Link></li>
+                        <li><Link href="/services/#capabilities">Commercial 
+                        Capability Practice</Link></li>
+                        <li><Link href="/about-us/#leadership">Our Leadership
+                        Team</Link></li>
                     </ul>
                 </div>
             </div>
