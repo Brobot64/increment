@@ -9,7 +9,7 @@ const Contact = () => {
                 <h6>Contact us</h6>
                 <p>in.crement2m limited <br />
                     12A Oduduwa Way, G.R.A., Ikeja, Lagos <br /> <br />
-                    Tel: <a href="tel:+2349070004141" type='tel'>+234 907 000 4141</a> <br />
+                    Tel: <a href="tel:+2347089931155" type='tel'>+234 708 993 1155</a> <br />
                 </p>
             </div>
         </section>

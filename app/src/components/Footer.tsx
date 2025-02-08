@@ -44,7 +44,7 @@ const Footer = () => {
                     <h6>Contact us</h6>
                     <p>in.crement2m limited <br />
                         12A Oduduwa Way, G.R.A., Ikeja, Lagos <br />
-                        +234 907 000 4141 <br />
+                        +234 708 993 1155 <br />
                     </p>
                 </div>
             </div>
